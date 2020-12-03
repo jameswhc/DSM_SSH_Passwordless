@@ -29,7 +29,7 @@ ssh 到伺服器
 -	
     cd /volume1/homes/想控制帳號/.ssh
 
-然後跟原來的authorized_keys串接起來
+跟原來的authorized_keys串接起來
 -	
     cat id_rsa.pub >> authorized_keys
   
