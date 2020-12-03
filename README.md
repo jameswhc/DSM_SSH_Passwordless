@@ -26,11 +26,15 @@ Synology DSM ssh passwordless
 ```
 >切換到**想控制帳號**目錄下
 	
-    ```cd /volume1/homes/想控制帳號/.ssh```
+    ```
+    cd /volume1/homes/想控制帳號/.ssh
+    ```
 
 >跟原來的authorized_keys串接起來
 	
-    ```cat id_rsa.pub >> authorized_keys```
+    ```
+    cat id_rsa.pub >> authorized_keys
+    ```
   
 >或者新增一個`authorized_keys`然後再串接
 ```
@@ -47,7 +51,9 @@ Synology DSM ssh passwordless
 ```
 >變更SSH Deamon的設定
 
-    ```vim /etc/ssh/sshd_config```
+    ```
+    vim /etc/ssh/sshd_config
+    ```
 
 >取消下面4項註解
 ```
@@ -60,7 +66,9 @@ Synology DSM ssh passwordless
 ```
 >重新載入 SSHD
 	
-    ```synoservicectl --reload sshd```
+    ```
+    synoservicectl --reload sshd
+    ```
   
 完成!可以去試看看囉
 =
