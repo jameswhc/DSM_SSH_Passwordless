@@ -1,4 +1,4 @@
-Synology DSM ssh passwordless
+Synology DSM ssh passwordless(免密碼登入)
 =
 [操作本機]
 ==
