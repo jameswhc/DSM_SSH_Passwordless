@@ -1,7 +1,7 @@
 Synology DSM ssh passwordless
-#
+=
 [操作本機]
-#
+==
 >在本機執行 ssh-keygen -t rsa，產生 id_rsa、id_rsa.pub 
 >(檔案會存放在 <本機\使用者\帳號\.ssh\> 下)
     
@@ -13,7 +13,7 @@ Synology DSM ssh passwordless
     將id_rsa.pub 從本地檔案總管<拉>到 .ssh目錄
 ```    
 [操作遠端]
-#
+==
 >ssh 到伺服器
 ```
     ssh <管理者帳號> @ <host_IP>
@@ -63,4 +63,4 @@ Synology DSM ssh passwordless
     `synoservicectl --reload sshd`
   
 完成!可以去試看看囉
-#
+=
