@@ -49,7 +49,7 @@ Synology DSM ssh passwordless(免密碼登入)
     cd ..
     chmod 755 <想控制帳號>    !!!!沒看錯! 家目錄也要設
 ```
->變更SSH Deamon的設定
+>變更SSH Daemon的設定
 
 ```
     vim /etc/ssh/sshd_config
