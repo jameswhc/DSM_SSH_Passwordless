@@ -1,5 +1,5 @@
 # Synology DSM ssh passwordless(免密碼登入)
-## [操作本機]
+## 操作本機
 1. 在本機執行 `ssh-keygen -t rsa`，產生 id_rsa、 **id_rsa.pub** 
 (檔案會存放在 <本機\使用者\帳號\.ssh\> 下)
     
@@ -9,7 +9,7 @@
     - 在 home 目錄下建立 .ssh 目錄	
     - 將id_rsa.pub 從本地檔案總管 **拉**到 .ssh目錄
     
-## [操作遠端]
+## 操作遠端
 1. ssh 到伺服器
 ```
     ssh <管理者帳號> @ <host_IP>
